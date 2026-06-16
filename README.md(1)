@@ -1,0 +1,101 @@
+# Geographic Ranking Analyzer
+
+A Python project that identifies geographic entities with the highest and lowest values using population, rainfall, and elevation datasets.
+
+## Features
+
+- Find Highest Population City
+- Find Lowest Population City
+- Find Highest Rainfall Region
+- Find Highest Mountain
+- Track both values and entity names
+- Perform ranking analysis on geographic datasets
+
+## Dataset Examples
+
+### Cities
+
+```python
+cities = [
+    {'name':'Delhi', 'population':19000000},
+    {'name':'Mumbai', 'population':20000000},
+    {'name':'Jaipur', 'population':4000000},
+    {'name':'Shillong', 'population':500000},
+    {'name':'Chennai', 'population':11000000}
+]
+```
+
+### Regions
+
+```python
+regions = [
+    {'name':'Rajasthan', 'rainfall':60},
+    {'name':'Meghalaya', 'rainfall':250},
+    {'name':'Assam', 'rainfall':180},
+    {'name':'Ladakh', 'rainfall':10}
+]
+```
+
+### Mountains
+
+```python
+mountains = [
+    {'name':'Aravalli', 'height':1722},
+    {'name':'Kanchenjunga', 'height':8586},
+    {'name':'Nilgiri', 'height':2637},
+    {'name':'Everest', 'height':8849}
+]
+```
+
+## Concepts Used
+
+- Python Lists
+- Dictionaries
+- For Loops
+- Conditional Statements
+- MAX Analysis
+- MIN Analysis
+- Geographic Ranking
+- Name Tracking
+
+## Sample Output
+
+```text
+Population Analyzer
+--------------------
+
+Highest Population: 20000000
+Highest Population City: Mumbai
+
+Lowest Population: 500000
+Lowest Population City: Shillong
+
+Highest Rainfall: 250
+Highest Rainfall Region: Meghalaya
+
+Highest Height: 8849
+Highest Height Mountain: Everest
+```
+
+## Output Screenshot
+
+See the output screenshot below:
+
+![Output Screenshot](output.png)
+
+## Learning Outcome
+
+Through this project, I practiced:
+
+- Finding maximum values
+- Finding minimum values
+- Tracking names associated with maximum values
+- Tracking names associated with minimum values
+- Geographic data ranking
+- Data analysis using Python
+
+## Author
+
+Nazarat Mujtaba
+
+GitHub: https://github.com/nmujtaba01-debug
